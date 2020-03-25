@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - sistema_venda</title>
+    <title>@ViewData["Title"] Gestão de Vendas</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">sistema_venda</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Gestão de Vendas</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
             let nome = '@HttpContextAcessor.HttpContext.Session.GetString("NomeUsuarioLogado")'
 
          
-
+@* 
             if(nome!= ""){
 
                    let divnome = document.getElementById("NovoUsuarioLogado")
@@ -67,10 +67,10 @@
             divNome.style = "color: white; padding-top:15px;";
 
             }else{
-                @* window.location.href='..Home/Login' *@
+                 window.location.href='..Home/Login' 
 
             }
-        }
+        } *@
     </script>
 </body>
 </html>
