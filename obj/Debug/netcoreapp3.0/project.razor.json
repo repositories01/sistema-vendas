@@ -14379,6 +14379,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/thiago/Documentos/sistema-venda/Views/Clientes/Index.cshtml",
+      "TargetPath": "Views\\Clientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/thiago/Documentos/sistema-venda/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
