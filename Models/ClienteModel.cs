@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
-using SistemaVendas.Models;
 using SistemaVendas.Uteis;
 
 namespace sistema_venda.Models
@@ -43,4 +42,4 @@ namespace sistema_venda.Models
             return lista;
         }
     }
-}
+} 

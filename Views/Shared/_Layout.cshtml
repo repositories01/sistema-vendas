@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body onload="UsuarioLogado()">
+<body onload="CarregaUsuarioLogado()">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -21,19 +21,14 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                           <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>  </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
-                        </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a></li>
                     </ul>
-                </div>
-                <div>
-                    @using Microsoft.AspNetCore.Http;
-                    @inject IHttpContextAccessor HttpContextAcessor
-                    <div id="NomeUsuarioLogado"></div>
-
-                </div>
-                
+                        @using Microsoft.AspNetCore.Http
+                        @inject IHttpContextAccessor HttpContextAccessor
+                         <div id="NomeUsuarioLogado"></div>
+                </div> 
             </div>
         </nav>
     </header>
@@ -55,22 +50,22 @@
 
     <script>
 
-        function UsuarioLogado(){
-            let nome = '@HttpContextAcessor.HttpContext.Session.GetString("NomeUsuarioLogado")'
+     
+          function CarregaUsuarioLogado()
+        {
+            var nome = '@HttpContextAccessor.HttpContext.Session.GetString("NomeUsuarioLogado")'
 
-         
-@* 
-            if(nome!= ""){
-
-                   let divnome = document.getElementById("NovoUsuarioLogado")
-            divNome.innerHtml = "ola" + nome "<a href="../Home/Login/0"(sair)<a/>"
-            divNome.style = "color: white; padding-top:15px;";
-
-            }else{
-                 window.location.href='..Home/Login' 
-
+            if (nome != "") //Usuário Logado
+            {
+                var divNome = document.getElementById("NomeUsuarioLogado");
+                divNome.innerHTML = "Olá " + nome + " <a href='../Home/Login/0'>(Sair)</a>";
+                divNome.style = "color:black; padding-top:5px;";
             }
-        } *@
+            else { //Usuário Não Logado
+                window.location.href = '../Home/Login';
+            }
+
+        }
     </script>
 </body>
 </html>

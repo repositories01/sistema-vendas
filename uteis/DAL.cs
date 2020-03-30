@@ -58,9 +58,9 @@ namespace SistemaVendas.Uteis
     public class DAL
     {
         private static string Server = "localhost";
-        private static string Database = "sistema-venda";
+        private static string Database = "sistema_venda";
         private static string User = "root";
-        private static string Password = "s";
+        private static string Password = "surfsempre0";
         private static string ConnectionString = $"Server={Server};Database={Database};Uid={User};Pwd={Password};Sslmode=none;Charset=utf8;";
         private static MySqlConnection Connection;
 
