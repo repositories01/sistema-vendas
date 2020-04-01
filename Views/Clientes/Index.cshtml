@@ -1,3 +1,5 @@
+
+
 <table class="table table-bordered">
 <thead>
 <tr>
@@ -12,9 +14,46 @@
 </thead>
 
 <tbody>
+    @{
+        foreach(var item in(List<ClienteModel>) ViewBag.ListaClientes){
+            <tr>
+                <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+                                <td><button type="button" class="btn btn-warning" onclick="Excluir(@item.Id)">Excluir</button></td>
+
+               <td>@item.Id</td>
+               <td>@item.Nome</td>      
+               <td>@item.CPF</td>
+               <td>@item.Email</td>
+
+            </tr>
+            
+            
+            }
+    }
 
 
 </tbody>
 
 
 </table>
+
+<button class="btn btn-block btn-primary" type="button" onclick="Cadastrar()">Cadastrar</button>
+
+
+<script>
+
+    funcion Cadastrar(){
+        window.location.href="../Clientes/Cadastro";
+    }
+
+
+    function Editar(id){
+        window.location.href="../Clientes/Editar" + id;
+
+    }
+
+      function Excluir(id){
+        window.location.href="../Clientes/Excluir" + id;
+
+    }
+</script>

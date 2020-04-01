@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TtEH4pLSi/h3ZGbmFT12FDjZSulyUlmBSYgcGHwjO9i806LEf0Cj2SS0mu9UC4bA6SV3sVnRbYqdqzph+lZeMg==",
+  "dgSpecHash": "FZ4fXqAFAGcMne04c+9b0xmjEDXCwqIg5sL9ZC5tOV+pBd+57ftZlc/WYQqjJEN6lakmYYG/v4WMoomAGSSa2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-venda.csproj",
+  "projectFilePath": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-vendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiag\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Thiag\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

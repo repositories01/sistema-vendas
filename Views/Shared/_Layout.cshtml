@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Gestão de Vendas</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Menu">Gestão de Vendas</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
             {
                 var divNome = document.getElementById("NomeUsuarioLogado");
                 divNome.innerHTML = "Olá " + nome + " <a href='../Home/Login/0'>(Sair)</a>";
-                divNome.style = "color:black; padding-top:5px;";
+                divNome.style = "color:black; padding-top:5 px;";
             }
             else { //Usuário Não Logado
                 window.location.href = '../Home/Login';

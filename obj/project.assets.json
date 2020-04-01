@@ -5780,9 +5780,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-venda.csproj",
-      "projectName": "sistema-venda",
-      "projectPath": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-venda.csproj",
+      "projectUniqueName": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-vendas.csproj",
+      "projectName": "sistema-vendas",
+      "projectPath": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\sistema-vendas.csproj",
       "packagesPath": "C:\\Users\\Thiag\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\obj\\",
       "projectStyle": "PackageReference",
