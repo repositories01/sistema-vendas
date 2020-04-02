@@ -115,3 +115,6 @@ C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\staticwebassets\sistema-venda.StaticWebAssets.Manifest.cache
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\staticwebassets\sistema-venda.StaticWebAssets.xml
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema-venda.genruntimeconfig.cache
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\Cadastro.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\Excluir.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\ExcluirCliente.cshtml.g.cs

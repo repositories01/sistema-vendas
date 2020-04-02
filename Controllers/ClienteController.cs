@@ -46,7 +46,7 @@ namespace SistemaVendas.Controllers
             return View();
         }
         
-             public IActionResult Excluir( int id)
+                 public IActionResult Excluir( int id)
 
         {
 
