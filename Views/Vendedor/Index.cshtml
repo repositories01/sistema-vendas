@@ -5,6 +5,8 @@
 <table class="table table-bordered">
 <thead>
 <tr>
+ <th>#</th>
+<th>#</th>
 <th>Id</th>
 <th>Nome</th>
 <th>Email</th>
@@ -17,15 +19,16 @@
 <tbody>
     @{
         foreach(var item in(List<VendedorModel>) ViewBag.ListaVendedores){
+         
             <tr>
-                <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
-                                <td><button type="button" class="btn btn-warning" onclick="Excluir(@item.Id)">Excluir</button></td>
-
+                
+          <td> <button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+          <td> <button type="button" class="btn btn-danger" onclick="Excluir(@item.Id)">Excluir</button></td>
+         
                <td>@item.Id</td>
                <td>@item.Nome</td>      
                <td>@item.Email</td>
-
-            </tr>
+             </tr>
             
             
             }
@@ -42,18 +45,18 @@
 
 <script>
 
-    funcion Cadastrar(){
+    function Cadastrar(){
         window.location.href="../Vendedor/Cadastro";
     }
 
 
     function Editar(id){
-        window.location.href="../Vendedor/Editar" + id;
+        window.location.href="../Vendedor/Cadastro/" +id;
 
     }
 
       function Excluir(id){
-        window.location.href="../Vendedor/Excluir" + id;
+        window.location.href="../Vendedor/Excluir/" +id;
 
     }
 </script>

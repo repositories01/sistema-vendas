@@ -57,7 +57,7 @@ namespace SistemaVendas.Controllers
         }
 
         
-             public IActionResult ExcluirCliente( int id)
+             public IActionResult ExcluirVendedor( int id)
 
         {
 

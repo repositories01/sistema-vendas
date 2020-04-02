@@ -98,7 +98,6 @@ C:\Users\Thiag\Documents\projetos\sistema-vendas\bin\Debug\netcoreapp3.0\runtime
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema-venda.TagHelpers.input.cache
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema-venda.TagHelpers.output.cache
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema-venda.RazorCoreGenerate.cache
-C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\Index.cshtml.g.cs
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Home\Menu.cshtml.g.cs
@@ -115,6 +114,15 @@ C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\staticwebassets\sistema-venda.StaticWebAssets.Manifest.cache
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\staticwebassets\sistema-venda.StaticWebAssets.xml
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\sistema-venda.genruntimeconfig.cache
-C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\Cadastro.cshtml.g.cs
-C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\Excluir.cshtml.g.cs
-C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Clientes\ExcluirCliente.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Produto\Cadastro.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Produto\Excluir.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Produto\ExcluirProduto.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Produto\Index.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Vendedor\Cadastro.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Vendedor\Excluir.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Vendedor\ExcluirVendedor.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Vendedor\Index.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Cadastro.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Excluir.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\ExcluirCliente.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Index.cshtml.g.cs
