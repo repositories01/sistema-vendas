@@ -14369,6 +14369,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Cliente\\Cadastro.cshtml",
+      "TargetPath": "Views\\Cliente\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14384,11 +14389,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Clientes\\Cadastro.cshtml",
-      "TargetPath": "Views\\Clientes\\Cadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Produto\\Index.cshtml",
       "TargetPath": "Views\\Produto\\Index.cshtml",
       "FileKind": "mvc"
@@ -14396,6 +14396,16 @@
     {
       "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Produto\\ExcluirProduto.cshtml",
       "TargetPath": "Views\\Produto\\ExcluirProduto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Cliente\\Excluir.cshtml",
+      "TargetPath": "Views\\Cliente\\Excluir.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Venda\\Registrar.cshtml",
+      "TargetPath": "Views\\Venda\\Registrar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14424,16 +14434,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Clientes\\Excluir.cshtml",
-      "TargetPath": "Views\\Clientes\\Excluir.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Clientes\\ExcluirCliente.cshtml",
-      "TargetPath": "Views\\Clientes\\ExcluirCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14444,13 +14444,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Clientes\\Index.cshtml",
-      "TargetPath": "Views\\Clientes\\Index.cshtml",
+      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Cliente\\Index.cshtml",
+      "TargetPath": "Views\\Cliente\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Vendedor\\ExcluirVendedor.cshtml",
       "TargetPath": "Views\\Vendedor\\ExcluirVendedor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Thiag\\Documents\\projetos\\sistema-vendas\\Views\\Cliente\\ExcluirCliente.cshtml",
+      "TargetPath": "Views\\Cliente\\ExcluirCliente.cshtml",
       "FileKind": "mvc"
     },
     {

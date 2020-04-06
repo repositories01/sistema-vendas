@@ -126,3 +126,4 @@ C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\V
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Excluir.cshtml.g.cs
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\ExcluirCliente.cshtml.g.cs
 C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Index.cshtml.g.cs
+C:\Users\Thiag\Documents\projetos\sistema-vendas\obj\Debug\netcoreapp3.0\Razor\Views\Venda\Registrar.cshtml.g.cs
