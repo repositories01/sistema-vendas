@@ -21,17 +21,18 @@ namespace SistemaVendas.Controllers
             return View();
         }
 
-        
+
         [HttpPost]
         public IActionResult Registrar(VendaModel venda)
         {
+            venda.Inserir();
             return View();
         }
 
         private void CarregarDados()
         {
-            ViewBag.ListaClientes =  new VendaModel().RetornarListaClientes();
-                        ViewBag.ListaVendedores = new VendaModel().RetornarListaVendedores();
+            ViewBag.ListaClientes = new VendaModel().RetornarListaClientes();
+            ViewBag.ListaVendedores = new VendaModel().RetornarListaVendedores();
 
         }
 
