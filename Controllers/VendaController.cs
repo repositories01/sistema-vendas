@@ -17,7 +17,7 @@ namespace SistemaVendas.Controllers
         [HttpGet]
         public IActionResult Registrar()
         {
-            CarregarDados();
+              CarregarDados();
             return View();
         }
 

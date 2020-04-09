@@ -17,7 +17,7 @@ namespace SistemaVendas.Controllers
         {
 
 
-        ViewBag.ListaClientes = new ClienteModel().ListarTodosClientes();
+        ViewBag.ListaClientes =  new ClienteModel().ListarTodosClientes();
           
             return View();
         }
